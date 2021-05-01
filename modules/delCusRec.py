@@ -1,5 +1,5 @@
 import os
-def delete_record():
+def delete_customer_record():
     search = input("Enter Booking ID: ")
     file1 = open("Record/customer.txt", "r")
     file2 = open("Record/temp.txt", "w")
