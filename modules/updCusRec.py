@@ -1,6 +1,6 @@
 import os
 
-def update_record():
+def update_customer_record():
     flag = 0
     search = input("Enter Booking ID of Guest: ")
     file1 = open("Record/customer.txt", "r")
