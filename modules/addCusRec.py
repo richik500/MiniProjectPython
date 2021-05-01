@@ -1,4 +1,4 @@
-def add_record():
+def add_customer_record():
     print("Enter The Guest Details\n")
     id = input("Enter Booking ID: ")
     name = input("Enter Guest Name: ")
