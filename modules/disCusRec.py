@@ -1,4 +1,4 @@
-def display_record():
+def display_customer_record():
     print("\n\n List Of Available Customer Records\n\n")
     print("BOOKING ID---GUEST NAME---GUEST MOBILE NUMBER---GUEST ROOM NUMBER---GUEST CHECKIN DETAILS---GUEST CHECKOUT DETAILS---RENT---TOTAL BILL\n")
     file = open("Record/customer.txt", "r")
