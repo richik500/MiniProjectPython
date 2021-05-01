@@ -1,4 +1,4 @@
-from modules import displayRecord, updateRecord, deleteRecord, searchBookid, searchName, addRecord
+from functions import disCusRec, updCusRec, delCusRec, serCusBookid, serCusName, addCusRec
 
 print("\n Welcome to 260281's Hotel Management System\n")
 
@@ -15,15 +15,15 @@ while True:
     if n == 7:
         break
     elif n == 1:
-        addRecord.add_record()
+        addCusRec.add_customer_record()
     elif n == 2:
-        displayRecord.display_record()
+        disCusRec.display_customer_record()
     elif n == 3:
-        searchName.search_customer_name()
+        serCusName.search_customer_name()
     elif n == 4:
-        searchBookid.search_booking_id()
+        serCusBookid.search_booking_id()
     elif n == 5:
-        deleteRecord.delete_record()
+        delCusRec.delete_customer_record()
     elif n == 6:
-        updateRecord.update_record()
+        updCusRec.update_customer_record()
 
